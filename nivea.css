@@ -1,9 +1,36 @@
-body{
-    margin: 2px 5px;
-    padding: 5px 30px;
-    background-color: rgb(240, 232, 232);
-    font-size: x-large;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg');
+body {
+  width: 650px;
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+  margin-left: 400px;
+}
+.container {
+  padding-top: 10px;
+  font-size: 3vmin;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg");
+}
+#submit {
+  background-color: aqua;
+  font-size: large;
+}
+#submit:hover {
+  background-color: green;
+  font-size: 20px;
+}
+#reset {
+  background-color: orange;
+  font-size: large;
+}
+#reset:hover {
+  background-color: red;
+  font-size: 20px;
+}
+footer {
+  background-color: black;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  padding: 1px;
 }
