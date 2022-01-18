@@ -3,7 +3,8 @@ body {
   font-family: "Courier New", Courier, monospace;
   color: blue;
   height: 1800px;
-   margin-left: 200px;
+  margin-left: 150px;
+  margin-right:150px
 }
 .container {
   padding-top: 10px;
