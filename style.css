@@ -2,6 +2,7 @@ body {
   width: 650px;
   font-family: "Courier New", Courier, monospace;
   color: blue;
+  height: 300px;
 }
 .container {
   padding-top: 10px;
