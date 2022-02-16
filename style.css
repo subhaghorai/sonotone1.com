@@ -1,10 +1,14 @@
 body {
-  width: 650px;
+  width: 800px;
   font-family: "Courier New", Courier, monospace;
   color: blue;
-  height: 1800px;
+  margin: 120px auto;
+  box-shadow: 40px 20px 50px -20px black, -40px -20px 40px -20px black;
+  border-radius: 40px;
 }
 .container {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
   padding-top: 10px;
   font-size: 3vmin;
   background-repeat: no-repeat;
@@ -33,4 +37,7 @@ footer {
   color: white;
   text-align: center;
   padding: 1px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
+
